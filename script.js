@@ -51,7 +51,7 @@ function removeEditButton(editEle) {
   }
 }
 
-function deleteBtn(rowdata) {
+function deleteButton(rowdata) {
   let deleteDataButton = document.createElement("input");
   deleteDataButton.type = "button";
   deleteDataButton.value = "Delete";
