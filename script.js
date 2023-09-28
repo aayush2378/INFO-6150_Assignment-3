@@ -31,7 +31,7 @@ function checkboxSelect(checkbox) {
   removeEditButton(editEle);
   if (checkbox.checked) {
     rowNumber.bgColor = "orange";
-    _deleteData.appendChild(deleteBtn(rowNumber));
+    _deleteData.appendChild(deleteButton(rowNumber));
     editEle.appendChild(editButton(rowNumber));
   } else {
     rowNumber.bgColor = "";
